@@ -31,7 +31,7 @@ module FA;
            .s(s),
           .cout(cout));
     
-  initial begin  
+  initial begin   
     $dumpfile("dump.vcd");
     $dumpvars(1);
     
