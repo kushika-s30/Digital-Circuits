@@ -37,3 +37,41 @@ always @(*)
   player_play <= 1'b0;
   computer_play <= 1'b0;
  end 
+      
+ PLAYER:begin 
+  player_play <= 1'b1;
+  computer_play <= 1'b0;
+  if(illegal_move==1'b0)
+   next_state <= COMPUTER; // computer to play 
+  else 
+   next_state <= IDLE;
+ end 
+ COMPUTER:begin 
+  player_play <= 1'b0;
+  if(pc==1'b0) begin 
+   next_state <= COMPUTER;
+   computer_play <= 1'b0;
+  end
+  else if(win==1'b0 && no_space == 1'b0)
+  begin 
+   next_state <= IDLE;
+   computer_play <= 1'b1;// computer to play when PC=1
+  end 
+  else if(no_space == 1 || win ==1'b1)
+  begin 
+   next_state <= GAME_DONE; // game done 
+   computer_play <= 1'b1;// computer to play when PC=1
+  end  
+ end 
+ GAME_DONE:begin // game done
+  player_play <= 1'b0;
+  computer_play <= 1'b0; 
+  if(reset==1'b1) 
+   next_state <= IDLE;// reset the game to IDLE 
+  else 
+   next_state <= GAME_DONE;  
+ end 
+ default: next_state <= IDLE; 
+ endcase
+ end
+endmodule 
