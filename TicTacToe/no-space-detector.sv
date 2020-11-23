@@ -1,6 +1,6 @@
 // NO SPACE detector
 // to detect if no more spaces to play 
-// fpga4student.com: FPGA projects, Verilog projects, VHDL projects
+
 module nospace_detector(
    input [1:0] pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9, 
    output wire no_space
