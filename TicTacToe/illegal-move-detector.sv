@@ -1,6 +1,6 @@
 // Illegal move detector
 // to detect if a player plays on an exist position 
-// fpga4student.com: FPGA projects, Verilog projects, VHDL projects
+
 module illegal_move_detector(
    input [1:0] pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9, 
    input [8:0] PC_en, PL_en, 
