@@ -4,19 +4,9 @@ The repository contains Verilog codes of Combinational and Sequential Digital Ci
 It also contains the Verilog code of some basic datasheet circuits.
 
 ## Combinational Circuits
-BCD to Excess 3 converter : BCDtoEx3.sv
-Binary to Gray Code Converter : Binary_to_Gray.sv
-3x8 Decoder : Decoder3to8.sv
-Four Bit Parallel Adder: FourBitAdder.sv
-Full Adder: FullAdder.sv
-Full Subtractor : FullSubtractor.sv
-Gray to Binary Code Converter : Gray_to_Binary.sv
-Half Adder : HalfAdder.sv
-Half Subtractor : HalfSubtractor.sv
-4x1 Demultiplexer : demux4x1.sv
-8x3 Encoder : encoder8to3.sv
-Magnitude Comparator : magnitudecomp2bit.sv
-4x1 Multiplexer : mux4x1.sv
+BCD to Excess 3 converter, Binary to Gray Code Converter, 3x8 Decoder, Four Bit Parallel Adder, Full Adder, Full Subtractor, Gray to Binary Code Converter, Half Adder, Half Subtractor, 4x1 Demultiplexer, 8x3 Encoder, Magnitude Comparator, 4x1 Multiplexer. 
+
+## Sequential Circuits
 
 
 ## 1. DM74LS153 Dual 1-of-4 Line Data Selectors/Multiplexers 
