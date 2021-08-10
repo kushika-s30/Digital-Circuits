@@ -6,7 +6,7 @@ The repository contains Verilog codes of Combinational and Sequential Digital Ci
 BCD to Excess 3 converter, Binary to Gray Code Converter, 3x8 Decoder, Four Bit Parallel Adder, Full Adder, Full Subtractor, Gray to Binary Code Converter, Half Adder, Half Subtractor, 4x1 Demultiplexer, 8x3 Encoder, Magnitude Comparator, 4x1 Multiplexer. 
 
 ## Sequential Circuits
-
+D flip flop, JK flip flop, Mealy Model, SR flip flop, T flip flop.
 
 
 
